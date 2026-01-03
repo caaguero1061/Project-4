@@ -5,7 +5,6 @@ import { User } from "../models/User.js";
 import { Topic } from "../models/Topic.js";
 import { Question } from "../models/Question.js";
 import { Answer } from "../models/Answer.js";
-
 dotenv.config({ path: ".env" });
 
 console.log("ENV CHECK:", {
@@ -104,3 +103,4 @@ run()
     console.error("Seed failed:", err.message);
     process.exit(1);
   });
+
