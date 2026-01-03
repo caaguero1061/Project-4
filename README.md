@@ -2,8 +2,8 @@ BootcampBuddy is a full-stack web application built using a 3-Tier Architecture 
 
 The project demonstrates real-world backend patterns including authentication, REST APIs, database modeling, and environment configuration.
 
-🏗️ Architecture Overview (3-Tier)
-1️⃣ Presentation Layer
+ Architecture Overview (3-Tier)
+Presentation Layer
 
 Single Page Application (SPA)
 
@@ -11,7 +11,7 @@ Communicates with the backend using JSON
 
 Handles user interaction (login, questions, answers)
 
-2️⃣ Application Layer
+ Application Layer
 
 Node.js + Express
 
@@ -21,15 +21,14 @@ Handles authentication, authorization, and business logic
 
 JWT-based user authentication
 
-3️⃣ Data Layer
+ Data Layer
 
 MongoDB Atlas
 
 Mongoose schemas for Users, Topics, Questions, and Answers
 
 Seeded demo data for testing
-
-🧠 Application Theme
+ Application Theme
 
 BootcampBuddy is focused on software development topics, including:
 
@@ -41,7 +40,7 @@ Databases (MongoDB, Mongoose)
 
 This focused structure keeps the forum organized and realistic.
 
-📦 Tech Stack
+Tech Stack
 Backend
 
 Node.js
