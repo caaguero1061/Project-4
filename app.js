@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { api } from "../lib/api.js";
 import { setToken } from "../lib/auth.js";
-
 export default function Login() {
   const nav = useNavigate();
   const [email, setEmail] = useState("cassy@example.com");
@@ -48,3 +47,4 @@ export default function Login() {
     </div>
   );
 }
+
