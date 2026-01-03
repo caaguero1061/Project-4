@@ -9,7 +9,6 @@ Single Page Application (SPA)
 Communicates with the backend using JSON
 
 Handles user interaction (login, questions, answers)
-
  Application Layer
 
 Node.js + Express
