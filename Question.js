@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-
 const questionSchema = new mongoose.Schema(
   {
     topicId: { type: mongoose.Schema.Types.ObjectId, ref: "Topic", required: true },
@@ -13,3 +12,4 @@ const questionSchema = new mongoose.Schema(
 );
 
 export const Question = mongoose.model("Question", questionSchema);
+
