@@ -1,5 +1,4 @@
 BootcampBuddy is a full-stack web application built using a 3-Tier Architecture that allows users to register, log in, ask questions, and post answers within curated programming topics.
-
 The project demonstrates real-world backend patterns including authentication, REST APIs, database modeling, and environment configuration.
 
  Architecture Overview (3-Tier)
